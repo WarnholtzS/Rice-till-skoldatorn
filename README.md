@@ -1,5 +1,5 @@
 # Rice-till-skoldatorn
-Denna kollektion av dotfiler och diverse konfigurations filer fungerar på skoldatorerna och ger en god användar upplevelse. Paketen som krävs behöver inte custom repos på gentoo eller arch/artix linux. Om en nvidia gpu ska användas behövs de stängda nvidia drivrutinerna annars fungerar opensource drivrutiner för intel amd och diverse andra grafikkort som supportar wayland (ungefär allt gjort efter 2008). Detta är en fork av användarna "TheFrankyDoll" och "user18130814200115-2" projekt https://github.com/TheFrankyDoll/win10-style-waybar.
+Denna kollektion av dotfiler och diverse konfigurations filer fungerar på skoldatorerna och ger en god användar upplevelse. Paketen som krävs behöver inte custom repos på gentoo eller arch/artix linux. Om en nvidia gpu ska användas behövs de stängda nvidia drivrutinerna annars fungerar opensource drivrutiner för intel amd och diverse andra grafikkort som supportar wayland (ungefär allt gjort efter 2008). Waybar konfigurationen är en fork av användarna "TheFrankyDoll" och "user18130814200115-2" projekt https://github.com/TheFrankyDoll/win10-style-waybar.
   
 ## Installation instruktioner gentoo linux:
 ### Beroenden:
