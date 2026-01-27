@@ -53,5 +53,6 @@ Denna kollektion av dotfiler och diverse konfigurations filer fungerar på skold
     Se till att alla beroenden ligger i path (om du inte vet vad det betyder behöver du inte bry dig om det).
     Om sddm eller annan login manager ska användas se till att servicen är startad.
 
+
   
   
