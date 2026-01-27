@@ -1,0 +1,7 @@
+[font]
+	normal = { family = "UbuntuMono", style = "Regular" }
+	size= 15
+
+
+[window]
+	opacity= 0.8
