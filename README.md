@@ -13,7 +13,7 @@ Hyprutils.\
 Elogind (om du kör openrc).\
 Fontawesome.\
 Iwctl (om wifi ska användas kan bytas ut till iw eller wpa_supplicant).\
-Swaybg (om du vill ha ett wallpaper) USE="gdk-pixbuf".\
+Swaybg (om du vill ha wallpapers) USE="gdk-pixbuf".\
 Wlroots.\
 Acpilights.\
 Sddm (eller en annan loginmanager om man vill automatiskt starta ett grafisk gränssnitt efter start).\
