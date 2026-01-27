@@ -10,7 +10,7 @@ Ubuntu-font-family\
 Hyprland.\
 Hyprlang.\
 Hyprutils.\
-Elogind (om du kör openrc eller något annat init system än systemd).\
+Elogind (om du kör openrc).\
 Fontawesome.\
 Iwctl (om wifi ska användas kan bytas ut till iw eller wpa_supplicant).\
 Swaybg (om du vill ha ett wallpaper) USE="gdk-pixbuf".\
@@ -36,7 +36,7 @@ Ubuntu-font-family.\
 Hyprland.\
 Hyprlang.\
 Hyprutils.\
-Elogind (om du kör openrc eller något annat init system än systemd).\
+Elogind (om du kör openrc).\
 Fontawesome.\
 Iwctl (om wifi ska användas kan bytas ut till iw eller wpa_supplicant).\
 Swaybg (om du vill ha wallpapers).\
