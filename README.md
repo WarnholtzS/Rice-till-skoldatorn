@@ -16,7 +16,7 @@ Iwctl (om wifi ska användas kan bytas ut till iw eller wpa_supplicant).\
 Swaybg (om du vill ha ett wallpaper) USE="gdk-pixbuf".\
 Wlroots.\
 Acpilights.\
-Sddm (eller en annan loginmanager om användaren önskar att starta ett grafisk gränssnitt efter start).\
+Sddm (eller en annan loginmanager om man vill automatiskt starta ett grafisk gränssnitt efter start).\
 Alacritty (eller en annan terminal emulator, exempelvis st).
 ### Installation:
 Installera alla beroende (använd inte flatpaks eller liknande för detta!!).\
@@ -42,7 +42,7 @@ Iwctl (om wifi ska användas kan bytas ut till iw eller wpa_supplicant).\
 Swaybg (om du vill ha wallpapers).\
 Wlroots.\
 Acpilights.\
-Sddm (eller en annan loginmanager om användaren önskar att starta ett grafisk gränssnitt efter start).\
+Sddm (eller en annan loginmanager om man vill automatiskt starta ett grafisk gränssnitt efter start).\
 Alacritty (eller en annan terminal emulator, exempelvis st).
 ### Installation:
 Installera alla beroende (använd inte flatpaks eller liknande för detta!!).\
