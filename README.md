@@ -15,6 +15,7 @@ Fontawesome.\
 Iwctl (om wifi ska användas kan bytas ut till iw eller wpa_supplicant).\
 Swaybg (om du vill ha wallpapers) USE="gdk-pixbuf".\
 Wlroots.\
+xcursor-themes\
 Acpilights.\
 Sddm (eller en annan loginmanager om man vill automatiskt starta ett grafisk gränssnitt efter start).\
 Alacritty (eller en annan terminal emulator, exempelvis st).
