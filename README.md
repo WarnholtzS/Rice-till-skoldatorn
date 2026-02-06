@@ -53,7 +53,7 @@ Sddm (eller en annan loginmanager om man vill automatiskt starta ett grafisk gr�
 Alacritty (eller en annan terminal emulator, exempelvis st).
 ### Installation:
 Installera alla beroende (använd inte flatpaks eller liknande för detta!!).\
-    pacman -S waybar dmenu ubuntu-font-family hyprland hyprlang hyprutils elogind fontawesome iwctl swaybg wlroots xcursor-themes acpilights alacritty sddm\
+  pacman -S waybar dmenu ubuntu-font-family hyprland hyprlang hyprutils elogind fontawesome iwctl swaybg wlroots xcursor-themes acpilights alacritty sddm\
 Kopiera githuben och spara den i en lämplig directory. \
   git clone https://github.com/WarnholtzS/Rice-till-skoldatorn.git\
 Kopiera waybar dotfilerna till ~/.config/waybar/\
