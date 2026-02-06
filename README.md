@@ -34,7 +34,7 @@ git clone https://github.com/WarnholtzS/Rice-till-skoldatorn.git \
 mv config style.css ~/.config/waybar/\
 mv hyprland.conf ~/.config/hypr/\
 mv alacritty.toml ~/.config/alacritty/\
-rc-update add sddm default\
+rc-update add sddm default #om sddm ska användas\
 
 ## Installations instruktioner arch/artix linux:
 ### Beroenden:
@@ -66,4 +66,4 @@ git clone https://github.com/WarnholtzS/Rice-till-skoldatorn.git \
 mv config style.css ~/.config/waybar/\
 mv hyprland.conf ~/.config/hypr/\
 mv alacritty.toml ~/.config/alacritty/\
-systemctl enable sddm\
+systemctl enable sddm #om sddm ska användas
