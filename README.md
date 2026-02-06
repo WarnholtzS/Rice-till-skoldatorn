@@ -27,15 +27,15 @@ Kopiera waybar dotfilerna till ~/.config/waybar/\
 Kopiera hyprland dotfilerna till ~/.config/hypr/\
 Kopiera alacritty dotfilerna till ~/.config/alacritty/\
 Se till att alla beroenden ligger i path (om du inte vet vad det betyder behöver du inte bry dig om det).\
-Om sddm eller annan login manager ska användas se till att servicen är startad.
-'''
+Om sddm eller annan login manager ska användas se till att servicen är startad.\
+``
 emerge --ask --verbose waybar dmenu ubuntu-font-family hyprland hyprlang hyprutils elogind fontawesome iwctl swaybg wlroots xcursor-themes acpilights alacritty sddm\
 git clone https://github.com/WarnholtzS/Rice-till-skoldatorn.git\
 mv config style.css ~/.config/waybar/\
 mv hyprland.conf ~/.config/hypr/\
 mv alacritty.toml ~/.config/alacritty/\
 rc-update add sddm default\
-'''
+``
 
 
   
