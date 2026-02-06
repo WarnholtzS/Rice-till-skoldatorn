@@ -21,19 +21,24 @@ Sddm (eller en annan loginmanager om man vill automatiskt starta ett grafisk gr�
 Alacritty (eller en annan terminal emulator, exempelvis st).
 ### Installation:
 Installera alla beroende (använd inte flatpaks eller liknande för detta!!).\
-  emerge --ask --verbose waybar dmenu ubuntu-font-family hyprland hyprlang hyprutils elogind fontawesome iwctl swaybg wlroots xcursor-themes acpilights alacritty sddm\
 Kopiera githuben och spara den i en lämplig directory.\
-  git clone https://github.com/WarnholtzS/Rice-till-skoldatorn.git\
 Kernel configs som behövs kommer inte att medföras utan kompetenta användare som vill kompliera och ändra sin kernel får sköta det själva, standard gentoo-kernel har alla configs som behövs.\
 Kopiera waybar dotfilerna till ~/.config/waybar/\
-  mv config style.css ~/.config/waybar/\
 Kopiera hyprland dotfilerna till ~/.config/hypr/\
-  mv hyprland.conf ~/.config/hypr/\
 Kopiera alacritty dotfilerna till ~/.config/alacritty/\
-  mv alacritty.toml ~/.config/alacritty/\
 Se till att alla beroenden ligger i path (om du inte vet vad det betyder behöver du inte bry dig om det).\
 Om sddm eller annan login manager ska användas se till att servicen är startad.
-  rc-update add sddm default
+'''
+emerge --ask --verbose waybar dmenu ubuntu-font-family hyprland hyprlang hyprutils elogind fontawesome iwctl swaybg wlroots xcursor-themes acpilights alacritty sddm\
+git clone https://github.com/WarnholtzS/Rice-till-skoldatorn.git\
+mv config style.css ~/.config/waybar/\
+mv hyprland.conf ~/.config/hypr/\
+mv alacritty.toml ~/.config/alacritty/\
+rc-update add sddm default\
+'''
+
+
+  
 
 ## Installations instruktioner arch/artix linux:
 ### Beroenden:
